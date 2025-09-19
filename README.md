@@ -1,108 +1,55 @@
-🏀 HYPE DUNK - Tela de Login
-Descrição
+Hype Dunk Login
+Descrição do Projeto
+Este projeto é uma tela de login estilizada desenvolvida com HTML5, CSS3 e JavaScript. A interface foi pensada para ser moderna e intuitiva, combinando um design visualmente atraente com funcionalidades de validação de formulário.
 
-Projeto de tela de login estilizada com HTML5, CSS3 e JavaScript, apresentando:
+⚙️ Funcionalidades
+Fundo visualmente atraente: Imagem de fundo com um gradiente suave.
 
-Fundo com imagem e gradiente;
+Formulário moderno: Campos de entrada com marcadores (placeholders) e ícones para uma melhor experiência do usuário.
 
-Formulário moderno com placeholders e ícones;
+Validação em tempo real: Mensagens de sucesso ou erro que aparecem na tela ao tentar fazer o login.
 
-Mensagens de sucesso ou erro ao efetuar login;
+Links úteis: Acesso fácil a redes sociais e uma opção de cadastro.
 
-Links de redes sociais e opção de cadastro.
+Ideal para quem está aprendendo a manipular o DOM, estilizar com CSS e validar formulários com JavaScript.
 
-Ideal para aprendizado de formulários, estilização e manipulação de DOM.
+🛠️ Tecnologias Utilizadas
+HTML5: Estrutura básica da página e do formulário.
+
+CSS3: Estilização completa, incluindo gradientes, sombras, efeitos hover e o layout responsivo.
+
+JavaScript: Responsável pela validação do login e pela exibição das mensagens de feedback.
+
+Font Awesome: Biblioteca de ícones para os campos de entrada e redes sociais.
 
 📁 Estrutura do Projeto
 /HypeDunkLogin
 │
-├─ index.html        # Estrutura da página de login
+├─ index.html          # Estrutura principal da página de login
+│
 ├─ css/
-│  └─ style.css      # Estilos do layout
+│  └─ style.css        # Arquivo de estilos
+│
 ├─ js/
-│  └─ index.js       # Validação de login
+│  └─ index.js         # Lógica de validação do login
+│
 ├─ img/
-│  ├─ logo.png       # Logo da marca
-│  └─ pexels-hamza01nsr-12611630.jpg  # Imagem de fundo
-└─ README.md         # Documentação do projeto
-
-🛠 Tecnologias
-
-HTML5 – Estrutura do formulário e da página.
-
-CSS3 – Gradientes, sombras, efeitos hover e estilização do layout.
-
-JavaScript – Validação de login e mensagens de feedback.
-
-Font Awesome – Ícones de usuário, senha e redes sociais.
-
-💻 HTML - Estrutura
-
-Nome e logo da marca
-
-Formulário de login:
-
-Input de usuário e senha com ícones;
-
-Checkbox "Esqueceu a senha?";
-
-Botão de login;
-
-Ícones de redes sociais;
-
-Link para registro;
-
-Parágrafo para mensagens de sucesso ou erro (id="saida").
-
-🎨 CSS - Estilo
-
-Reset de margens e fontes.
-
-Background: gradiente + imagem fixa.
-
-Wrapper: caixa centralizada com borda arredondada e padding.
-
-Inputs: estilos de foco, placeholders e ícones posicionados.
-
-Botão de login: gradiente e efeito hover.
-
-Links e ícones: hover animado e alinhamento centralizado.
-
-Como funciona:
-
-Intercepta o envio do formulário (e.preventDefault()).
-
-Lê valores de usuário e senha.
-
-Compara com usuários pré-definidos.
-
-Exibe mensagem de sucesso ou erro.
-
-Redireciona para outra página em caso de sucesso.
-
+│  ├─ logo.png         # Logo da marca Hype Dunk
+│  └─ pexels-hamza01nsr-12611630.jpg # Imagem de fundo
+│
+└─ README.md           # Documentação do projeto
 🚀 Como Usar
-
 Clone o repositório:
 
+Bash
+
 git clone https://github.com/seuusuario/HypeDunkLogin.git
+Abra o arquivo:
+Abra index.html em seu navegador para visualizar a tela de login.
 
-
-Abra index.html no navegador.
-
-Teste com os usuários:
+Faça o teste:
+Use as seguintes credenciais para testar a validação:
 
 Usuário: cliente | Senha: abcd
 
 Usuário: gerente | Senha: 1234
-
-Interaja com botões e links.
-
-🔧 Possíveis Melhorias
-
-Conectar com banco de dados real para autenticação.
-
-Implementar recuperação de senha.
-
-Validar força da senha e mostrar feedback visual.
-
-Tornar o layout 100% responsivo.
