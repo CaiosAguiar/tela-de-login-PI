@@ -33,7 +33,7 @@ Clone o repositório:
 
 Bash
 
-git clone https://github.com/seuusuario/HypeDunkLogin.git
+git clone (https://github.com/CaiosAguiar/tela-de-login-PI.git)
 Navegue até o diretório do projeto:
 
 Bash
