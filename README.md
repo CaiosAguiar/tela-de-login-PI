@@ -28,18 +28,6 @@ Validação de Login: Mensagens de sucesso ou erro que aparecem na tela, guiando
 
 Links Úteis: Acesso fácil a redes sociais e uma opção de cadastro.
 
-📁 Estrutura do Projeto
-/HypeDunkLogin
-├── index.html         # Estrutura principal da página de login
-├── css/
-│   └── style.css      # Estilos de layout
-├── js/
-│   └── index.js       # Lógica de validação do login
-├── img/
-│   ├── logo.png       # Logo da marca Hype Dunk
-│   └── pexels-hamza01nsr-12611630.jpg # Imagem de fundo
-└── README.md          # Documentação do projeto
-
 🚀 Como Usar
 Clone o repositório:
 
